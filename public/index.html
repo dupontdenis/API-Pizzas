@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>APIPizzas — Frontend Tester</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main>
+    <h1>APIPizzas — Tester</h1>
+
+    <section class="controls">
+      <button id="load-pizzas">Load Pizzas</button>
+      <button id="load-toppings">Load Toppings</button>
+    </section>
+
+    <section>
+      <h2>Pizzas</h2>
+      <ul id="pizzas-list" class="list"></ul>
+    </section>
+
+    <section>
+      <h2>Toppings</h2>
+      <ul id="toppings-list" class="list"></ul>
+    </section>
+
+    <footer>
+      <small>Requests are made to <code>/pizzas</code> and <code>/toppings</code>.</small>
+    </footer>
+  </main>
+
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>
